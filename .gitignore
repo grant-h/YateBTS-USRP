@@ -1,0 +1,24 @@
+# Build outputs
+*.o
+*.a
+mbts/Transceiver52M/transceiver-uhd
+mbts/TransceiverRAD1/transceiver-rad1
+mbts/apps/mbts
+nib/auth/do_comp128
+nib/auth/do_milenage
+ybts.yate
+
+# Configure outputs
+Makefile
+config.h
+config.log
+config.status
+
+# Vim stuff
+*.swp
+*.swo
+
+.vscode
+cscope*
+tags
+myproject.db
